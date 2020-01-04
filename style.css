@@ -1,0 +1,85 @@
+svg{
+  border: 1px solid black;
+}
+
+body{
+    font-family: Verdana;
+    /*shape-rendering: crispEdges;*/
+}
+
+#dashboard{
+  width: 1000px;
+}
+
+.calendar{
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border: 1px solid black;
+  float: left;
+}
+
+.yrLbl{
+  fill: black;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.yrLbl:hover{
+  font-weight: bold;
+}
+
+.dt{
+  fill: #ffffe0;
+  stroke: black;
+  stroke-width: .2;
+  cursor: pointer;
+}
+
+.dt:hover{
+  stroke:black;
+  stroke-width: .8;
+}
+
+.dtLbl{
+  font-size: .8em;
+  fill: black;
+  stroke: black;
+}
+
+.moLbl{
+  cursor: pointer;
+}
+
+.moLbl:hover{
+  font-weight: bold;
+}
+
+.dayLbl{
+  font-size: .7em;
+}
+
+.pieChart{
+    margin-top: 50px;
+    float: left;
+    vertical-align: top;  
+    position: relative;
+}
+
+.pieS:hover{
+  stroke: white;
+  opacity: .8;
+}
+
+.legend{
+  margin-top: 10px;
+  vertical-align: top;
+  float: left;
+
+  position: relative;
+
+}
+
+.lLbl{
+  font-size: .8em;
+}
